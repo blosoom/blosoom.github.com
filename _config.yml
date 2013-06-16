@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
@@ -129,3 +130,19 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+=======
+auto: true
+
+markdown: rdiscount
+pygments: true
+paginate: 6
+permalink: /:title
+
+title: blosoom.github.com
+url: http://blosoom.github.com
+feed: /atom.xml
+author:
+    name: Blosoom
+description: "Blosoom\'s Blog"
+author_info: <a href="http://blosoom.github.com/about">Blosoom</a>
+>>>>>>> 9e45d4bd5f3c0fde4c0b93727b85207088fe95a4
