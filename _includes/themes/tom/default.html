@@ -20,7 +20,7 @@
 
   <div class="site">
     <div class="title">
-      <a href="{{ HOME_PATH }}">{{ site.title }}</a>
+      <a href="{{ HOME_PATH }}">Home</a>
 
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
@@ -33,15 +33,9 @@
     <div class="footer">
       <div class="contact">
         <p>
-          {{ site.author.name }}<br />
-          {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/{{ site.author.github }}/">My Github{{ site.author.github }}</a><br />
-          <a href="http://weibo.com/{{ site.author.weibo }}/">My WeiBo{{ site.author.weibo }}</a><br />
+          <a href="http://github.com/{{ site.author.github }}/">My Github </a><br />
+          <a href="http://weibo.com/{{ site.author.weibo }}/">My WeiBo </a><br />
+	  <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
         </p>
       </div>
       <div class="rss">
@@ -51,7 +45,7 @@
       </div>
     </div>
   </div>
-  <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+ 
 
   {% include JB/analytics %}
 </body>
